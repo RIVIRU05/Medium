@@ -1,0 +1,129 @@
+.gradient-background{
+  background: linear-gradient(300deg, #33b0d9, #3479be, #72ef91);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  
+  
+}
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+.navbar-brand{
+    margin-left: 1rem;
+}
+  .screenshot-card {
+    width: 80%; 
+    height: 100%; 
+    border-radius: 21px 21px 0 0;
+ }
+ .product-title{
+  background-image:url('  fruit-veggie-fashion-bd-2x1-210512.webp');
+  margin-top: 300spx;
+ }
+ .summer{
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: url('  summer.jpeg');
+  color: transparent;
+          
+ }
+.signin{
+  margin-top: 25%; 
+  margin-left: 50%;
+  width:100%;
+}
+.width-75{
+  width: 75%;
+}
+.hgt_50px{
+  height: 50px;
+}
+.margin-bottom-50{
+  margin-bottom: 50px;
+}
+.home {
+  height: 100vh;
+  
+  background-size:1vh;
+  background-position: center;
+  object-fit:cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 300px;
+}
+.form-container {
+  width: 500px;
+  
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 5px;
+}
+
+.form-group textarea {
+  width: 100%;
+  padding: 5px;
+  resize: vertical;
+}
+
+.form-group .checkbox-group label,
+.form-group .radio-group label {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.submit-btn {
+  margin-top: 20px;}
+
+.abtus{
+  background-image: url(  4907157.jpg);
+}
+.containerx {
+  max-width: 650px;
+  margin: 50px auto;
+  margin-top: 200px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.buttonx {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buttonx:hover {
+  background-color: #45a049;
+}
+.formx {
+  margin: 0; 
+  max-width: 630px;
+}
